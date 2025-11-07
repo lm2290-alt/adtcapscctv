@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SK쉴더스 보안 CCTV 제안서</title>
+  <style>
+    html,body{height:100%;margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial}
+    .header{
+      position:fixed;top:0;left:0;right:0;height:70px;
+      background:rgba(255,255,255,0.95);backdrop-filter:blur(6px);
+      display:flex;flex-direction:column;align-items:center;justify-content:center;
+      box-shadow:0 2px 6px rgba(0,0,0,0.08);z-index:9999;
+      text-align:center;
+    }
+    .call-btn{
+      display:inline-block;margin-bottom:4px;padding:8px 16px;border-radius:12px;
+      background:linear-gradient(180deg,#ff4d4f,#d9363e);color:#fff;font-weight:600;
+      text-decoration:none;font-size:15px;
+    }
+    .call-sub{
+      font-size:13px;color:#333;
+    }
+    .viewer{
+      position:absolute;top:70px;left:0;right:0;bottom:0;
+    }
+    iframe{width:100%;height:100%;border:0;}
+  </style>
+</head>
+<body>
+  <header class="header">
+    <a href="tel:010-2244-0139" class="call-btn">이곳을 누르면 전화가 연결됩니다!</a>
+    <div class="call-sub">ADT캡스 김상아 책임 (010-2244-0139)</div>
+  </header>
+
+  <main class="viewer">
+    <iframe src="https://drive.google.com/file/d/1u2cbiKRPG2xrRofpOCMZWSg-ZlG5kE5k/preview" allow="autoplay"></iframe>
+  </main>
+</body>
+</html>
